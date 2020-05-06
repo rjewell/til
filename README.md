@@ -5,7 +5,11 @@ Today I Learned
 
 A collection of short pieces of knowledge.
 
+- [Git](#git)
 - [Tools](#tools)
+
+## Git
+- [Temporarily Ignore File in Git](git/temporarily-ignore-file.md)
 
 ## Tools
 - [HTTPie](tools/httpie.md)
