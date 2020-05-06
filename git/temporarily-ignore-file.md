@@ -4,10 +4,6 @@
 be convenient to ignore a file personally without making changes to the tracked
 .gitignore file. 
 
-## Example Use Cases
-* Ignore a local change to tracked configuration file
-* Ignore a single file to easily operate on many other files as a batch (i.e. 
-the oft-forbidden `git commit -a`)
 
 ## Usage
 
@@ -16,3 +12,9 @@ the oft-forbidden `git commit -a`)
 and later to "unignore":
 
 `git update-index --no-assume-unchanged <file>`
+
+## Notes
+Files can still be explicity added, by name or as a side-effect of `git commit -a`.
+
+## Source
+[Nick Quaranto: Git Ready - temporarily ignoring files](http://gitready.com/intermediate/2009/02/18/temporarily-ignoring-files.html)
